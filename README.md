@@ -1,4 +1,4 @@
-# AI Engineering Practice
+**AI Engineering Practice**
 
 This repository contains my daily AI engineering practice code snippets, experiments, and notes.
 

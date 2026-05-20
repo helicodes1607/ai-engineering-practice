@@ -1,10 +1,16 @@
-**AI Engineering Practice**
+# AI Engineering Practice
 
-This repository contains my daily AI engineering practice code snippets, experiments, and notes.
+This repository contains code snippets to help Software Engineers learn AI Engineering concepts.
 
-I use this repo to practice:
-- OpenAI API usage
-- Prompt engineering
-- Small AI app experiments
+## Topics Covered
 
-The goal is to build consistency and improve my AI engineering skills by adding small examples every day.
+This repository includes examples on:
+
+- Working with the OpenAI API
+- Estimating token usage and its costs
+- Understanding prompt engineering techniques
+- Using zero-shot, one-shot, and multi-shot prompting
+- Adding basic guardrails to AI applications
+- Building multi-turn conversations with message history
+- Adjusting temperature to control model output
+

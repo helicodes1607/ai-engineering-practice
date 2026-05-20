@@ -13,4 +13,5 @@ This repository includes examples on:
 - Adding basic guardrails to AI applications
 - Building multi-turn conversations with message history
 - Adjusting temperature to control model output
+- Understanding roles: System, Assistant, User
 

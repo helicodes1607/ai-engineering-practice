@@ -4,8 +4,11 @@ from openai import OpenAI
 
 load_dotenv()
 
-client = OpenAI(api_key="<OPENAI_API_TOKEN>")
+api_key = os.getenv("OPENAI_API_KEY")
+if not api_key:
+    raise RuntimeError("OPENAI_API_KEY is not set")
 
+client = OpenAI(api_key=api_key)
 code = '''
 def calculate_rectangle_area(length, width):
     area = length * width
